@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 export class LoginComponent {
   private linkedInCredentials = {
     clientId: "client_id_of_linkedin_app",
-    redirectUrl: "https://y8pud.codesandbox.io/linkedInLogin"
+    redirectUrl: "https://2b46q.codesandbox.io/linkedInLogin"
   };
   constructor(private http: HttpClient) {}
   login() {
